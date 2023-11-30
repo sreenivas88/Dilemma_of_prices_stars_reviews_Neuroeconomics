@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2023.2.3">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="star_review_exp_code" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="scene_camera.json" valType="file" updates="None" name="plCompanionCameraCalibration"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_msg_enter_response" plugin="None">
+        <Param val="1.0000, 0.8431, 0.6078" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_msg_enter_response" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.45)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Now you can enter your choice by pressing key 'a' (for Laptop A) or key 'b' (for Laptop B)" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_choise_response" plugin="None">
+        <Param val="'a','b'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_choise_response" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="text_laptop_name_l1" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.06" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_laptop_name_l1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.4, 0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$laptop_name_l1" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_laptop_name_l2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.06" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_laptop_name_l2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.4, 0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$laptop_name_l2" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_price_l1" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_price_l1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.4, 0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;Price: Rs &quot; + str(value_l1) + &quot;/-&quot; " valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_price_l2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_price_l2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.4, 0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;Price: Rs &quot; + str(value_l2) + &quot;/-&quot; " valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_stars_l_1" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_stars_l_1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.4, 0.25)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;Rating: &quot; + str(stars_l1) + &quot;⭐&quot; * int(stars_l1) " valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_stars_l_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_stars_l_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.4, 0.25)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;Rating: &quot; + str(stars_l2) + &quot;⭐&quot; * int(stars_l2) " valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_review_1" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_review_1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.4, -0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;Reviews for &quot; + laptop_name_l1 + &quot;:            &quot; + &quot;\n\n\n - &quot; + review_l1_1 + &quot;\n\n - &quot; + review_l1_2 + &quot;\n\n - &quot; + review_l1_3 + &quot;\n\n - &quot; + review_l1_4 + &quot;\n\n - &quot; + review_l1_5" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="0.8" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_review_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_review_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.4, -0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;Reviews for &quot; + laptop_name_l2 + &quot;:            &quot; + &quot;\n\n\n - &quot; + review_l2_1 + &quot;\n\n - &quot; + review_l2_2 + &quot;\n\n - &quot; + review_l2_3 + &quot;\n\n - &quot; + review_l2_4 + &quot;\n\n - &quot; + review_l2_5&amp;#10;" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="0.8" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Intro">
+      <RoutineSettingsComponent name="Intro" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Intro" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Welcome to our research study! We are conducting an experiment to gain insights into consumer decision-making processes when considering products with similar specifications but different star ratings, reviews, and price points.&amp;#10;&amp;#10;Duration:&amp;#10;The experiment is expected to take approximately 15-20 minutes to complete.&amp;#10;&amp;#10;Confidentiality:&amp;#10;All data collected during the experiment will be kept confidential, and your personal information will not be disclosed.&amp;#10;&amp;#10;Contact Information:&amp;#10;&amp;#10;If you have any questions or concerns about the study, please feel free to contact:&amp;#10;&amp;#10;Sreenivas Bhumireddy Papireddy (sreenivas.bhumireddy@research.iiit.ac.in)&amp;#10;&amp;#10;Muskan Raina (muskan.raina@students.iiit.ac.in)&amp;#10;&amp;#10;Press space to continue" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instructions">
+      <RoutineSettingsComponent name="instructions" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="instructions" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_intructions" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_intructions" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Suppose you have Rs 2 lakh. You need to choose a laptop to buy for your college education. You will be presented with information about two products with certain star ratings, reviews, and prices. &amp;#10;&amp;#10;Choose option A or B based on which laptop you are more likely to purchase based on the given information. &amp;#10;&amp;#10;Assume all the laptops provided to you have the same specifications." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="10.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="text_skip_message" plugin="None">
+        <Param val="0.9216, 0.9216, 0.7255" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_skip_message" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="10" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Press space to continue" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="consent">
+      <RoutineSettingsComponent name="consent" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="consent" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_consent" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_consent" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Consent Form:&amp;#10;&amp;#10;I hereby agree to participate in the research study described above. I understand the general purpose of the experiment, and I am aware that my participation is voluntary.&amp;#10;&amp;#10;I acknowledge that:&amp;#10;&amp;#10;I have been provided with information about the experiment's procedures.&amp;#10;I understand that the data collected during the experiment will be kept confidential and used solely for research purposes.&amp;#10;I am free to withdraw from the experiment at any time without providing a reason.&amp;#10;I agree to participate in the experiment and provide my responses as accurately and honestly as possible." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_3" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="5.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="5.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Press the space bar if you consent to participate." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="small_break">
+      <RoutineSettingsComponent name="small_break" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="small_break" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_loading" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_loading" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3.2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Loading Question" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="end_task_msg">
+      <RoutineSettingsComponent name="end_task_msg" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="end_task_msg" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_3" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thank you for participating and investing your time!&amp;#10;&amp;#10;Your contribution to the experiment is deeply appreciated!" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Intro"/>
+    <Routine name="consent"/>
+    <Routine name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="questions">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'qid': 'expc1q1', 'laptop_name_l1': 'laptopA', 'value_l1': 149000, 'stars_l1': 4, 'specs_l1': None, 'review_l1_1': 'Long lasting battery, laser fast performance, very good display, and is excellent at multi-tasking.', 'review_l1_2': 'The product is elegant with a minimalistic design.', 'review_l1_3': &quot;I'm impressed with this laptop, the battery lasts for a long time, and the performance is lightning-fast display is fantastic, making multitasking a breeze. The elegant design adds a touch of class to my setup.&quot;, 'review_l1_4': 'Received a damaged product, blue color patches (dots) on the screen, and the body is also improper. It looks like it is refurbished or repaired.', 'review_l1_5': 'Completely useless touchpad. It does not respond many times. It performs random clicks. Absolutely unusable.', 'laptop_name_l2': 'laptopB', 'value_l2': 124280, 'stars_l2': 4, 'specs_l2': None, 'review_l2_1': 'High-resolution display with vibrant colors and fast refresh rates.', 'review_l2_2': 'The touchpad is not responsive', 'review_l2_3': &quot;The laptop is defective. It crashed and froze multiple times. In my opinion, I won't recommend it to anyone&quot;, 'review_l2_4': 'The laptop came with expired warranty.', 'review_l2_5': 'The keyboard is very uncomfortable to use.'}, {'qid': 'expc1q2', 'laptop_name_l1': 'laptopA', 'value_l1': 101500, 'stars_l1': 3, 'specs_l1': None, 'review_l1_1': 'This laptop is a great choice for students and working professionals. It has a durable full metallic body and smooth keys that provide a great typing experience.', 'review_l1_2': 'This laptop is super fast for intermediate gaming and programs and should be bought. This laptop is a good choice', 'review_l1_3': 'The trackpad is large so definitely a good product. And the keyboard is very nice and the speakers are loud.', 'review_l1_4': 'Bought this laptop for office work. Immediately after setting the thing up the laptop was hot like a furnace and the charger was hot. Plus error messages of unrecognized chargers were shown. The laptop is a disgrace and a lot of time and effort went in vain.', 'review_l1_5': 'Great value-for-money laptop for software engineering students with high-end specifications.', 'laptop_name_l2': 'laptopB', 'value_l2': 23999, 'stars_l2': 3, 'specs_l2': None, 'review_l2_1': 'One of the worst laptops. Never buy this product for this laptop.', 'review_l2_2': 'Excellent laptop at a very cheap price. I bought it for my kid but also use it to do all my work. Except for high-end gaming, I can do all the work I want.', 'review_l2_3': 'Outdated and uncomfortable keyboard and touchpad.', 'review_l2_4': 'Disappointing audio quality with tinny speakers', 'review_l2_5': 'Frustratingly slow and unresponsive performance'}, {'qid': 'expc2q1', 'laptop_name_l1': 'laptopA', 'value_l1': 99999, 'stars_l1': 4, 'specs_l1': None, 'review_l1_1': 'Cheap plastic construction that feels like it might break any moment', 'review_l1_2': 'Responsive touchpad and smooth scrolling', 'review_l1_3': 'Sluggish performance for multitasking or resource-intensive applications', 'review_l1_4': 'Lackluster audio quality', 'review_l1_5': 'Display quality could be better; colors appear washed out', 'laptop_name_l2': 'laptopB', 'value_l2': 71999, 'stars_l2': 4, 'specs_l2': None, 'review_l2_1': 'Great display, fast performance, and great gaming experience, also good for coding and other software development work.', 'review_l2_2': &quot;The biggest drawback is the trackpad, when I use it the mouse is moved automatically. It was the most irritating part of this laptop, I thought it might be a software glitch but it is not getting solved. I'm not sure how to get out of this issue.&quot;, 'review_l2_3': 'Its specs meet my bare minimum requirements at the best price.', 'review_l2_4': 'This is an allrounder for coding and gaming. Go for this laptop.', 'review_l2_5': &quot;So far so good, been using this for the last 6-7 days. I've done heavy gaming and it does heat a bit but the thermals of this laptop are quite good. The fans are really good and don't make much noise. It can run all of your heavy games at max or close to max settings.&quot;}, {'qid': 'expc2q2', 'laptop_name_l1': 'laptopA', 'value_l1': 75000, 'stars_l1': 3, 'specs_l1': None, 'review_l1_1': 'Long-lasting battery life; perfect for on-the-go professionals', 'review_l1_2': &quot;Cheap plastic build; doesn't feel durable.&quot;, 'review_l1_3': 'Powerful performance; handles multitasking with ease.', 'review_l1_4': 'Battery life is disappointing; needs frequent charging.', 'review_l1_5': 'Dim and dull display; not suitable for media consumption.', 'laptop_name_l2': 'laptopB', 'value_l2': 62000, 'stars_l2': 3, 'specs_l2': None, 'review_l2_1': 'Powerful laptop with a compact and lightweight design.', 'review_l2_2': 'Slow boot times and application loading; frustrating user experience.', 'review_l2_3': 'Excellent cooling system; keeps temperatures in check during extended gaming sessions.', 'review_l2_4': 'Comfortable keyboard; improved typing experience.', 'review_l2_5': 'The display lacks vibrancy and sharpness.'}, {'qid': 'expc3q1', 'laptop_name_l1': 'laptopA', 'value_l1': 71000, 'stars_l1': 4.2, 'specs_l1': None, 'review_l1_1': 'Robust performance; handles resource-intensive tasks effortlessly.', 'review_l1_2': 'Subpar battery life; requires constant access to power.', 'review_l1_3': 'Incredible Retina display; colors are accurate, and details are stunning.', 'review_l1_4': 'Impressive audio quality; great for media consumption and content creation.', 'review_l1_5': 'Comfortable keyboard with a satisfying tactile feel.', 'laptop_name_l2': 'laptopB', 'value_l2': 64052, 'stars_l2': 3.4, 'specs_l2': None, 'review_l2_1': 'Incredibly lightweight for a laptop; great for travel.', 'review_l2_2': 'Underwhelming performance; struggles with basic tasks', 'review_l2_3': 'Good enough battery life.', 'review_l2_4': 'The stunning display provides a spacious and detailed workspace.', 'review_l2_5': &quot;Sleek and minimalist design; a gaming laptop that doesn't scream 'gamer’&quot;}, {'qid': 'expc3q2', 'laptop_name_l1': 'laptopA', 'value_l1': 98456, 'stars_l1': 4.5, 'specs_l1': None, 'review_l1_1': 'Fast refresh rate display for smooth visuals.', 'review_l1_2': 'Limited connectivity options; lacks modern ports like USB-C', 'review_l1_3': 'Bright and vivid display with slim bezels; immersive multimedia experience.', 'review_l1_4': 'Sluggish hard drive results in slow boot times and file access', 'review_l1_5': 'Strong performance; handles everyday tasks and multitasking effortlessly', 'laptop_name_l2': 'laptopB', 'value_l2': 78200, 'stars_l2': 3.8, 'specs_l2': None, 'review_l2_1': 'Decent performance for productivity tasks and content consumption.', 'review_l2_2': 'Low-resolution display with poor viewing angles', 'review_l2_3': 'Impressive battery life; lasts a full workday without needing a charge', 'review_l2_4': 'The ultra-lightweight design makes it ideal for traveling professionals like me', 'review_l2_5': 'Below-average audio quality; tinny and lacking bass.'}, {'qid': 'expc4q1', 'laptop_name_l1': 'laptopA', 'value_l1': 150412, 'stars_l1': 3.7, 'specs_l1': None, 'review_l1_1': 'The touchpad is smooth and easy to use', 'review_l1_2': 'Dim and lackluster display; colors appear muted', 'review_l1_3': 'Great for highly intensive and memory-demanding work.', 'review_l1_4': 'Responsive and comfortable keyboard for extended typing sessions', 'review_l1_5': 'Ample RAM allows for seamless multitasking; running multiple applications simultaneously is a breeze.', 'laptop_name_l2': 'laptopB', 'value_l2': 75405, 'stars_l2': 4.1, 'specs_l2': None, 'review_l2_1': 'Outdated design and build; lacks the modern aesthetics of competitors.', 'review_l2_2': 'Handles graphics-intensive gaming sessions and high-resolution video playback with ease.', 'review_l2_3': 'A true powerhouse! From gaming to spreadsheet calculations, this laptop excels in productivity tasks.', 'review_l2_4': &quot;Quick response times; the laptop doesn't lag, even with several browser tabs open and resource-intensive apps running&quot;, 'review_l2_5': 'Good laptop for all kinds of tasks.'}, {'qid': 'expc4q2', 'laptop_name_l1': 'laptopA', 'value_l1': 95477, 'stars_l1': 3.3, 'specs_l1': None, 'review_l1_1': 'My touchpad became unresponsive after 2 days of purchasing', 'review_l1_2': 'Has a good look and sleek design.', 'review_l1_3': 'I dislike the sound made by the keyboard when I type.', 'review_l1_4': 'Responsive touchpad and smooth scrolling', 'review_l1_5': 'Quiet fan operation and low heat generation', 'laptop_name_l2': 'laptopB', 'value_l2': 85400, 'stars_l2': 4.3, 'specs_l2': None, 'review_l2_1': 'No compromise on performance; handles tasks with ease', 'review_l2_2': 'My laptop refused to boot after 3 days of use', 'review_l2_3': 'Combined with a fast SSD, the laptop provides a smooth and efficient workflow', 'review_l2_4': 'The build is of poor quality. The hinge connecting the display broke within a month.', 'review_l2_5': 'The efficient cooling system maintains optimal temperatures without producing excessive fan noise'}, {'qid': 'ctrc1q1', 'laptop_name_l1': 'laptopA', 'value_l1': 121095, 'stars_l1': 4, 'specs_l1': None, 'review_l1_1': &quot;Webcam, speakers, and trackpad are bad. Don't buy unless you have money to buy peripherals.&quot;, 'review_l1_2': 'Best laptop for gaming while also being not too bulky', 'review_l1_3': 'Very bad design and plastic build not good and heavy', 'review_l1_4': 'Great value for money. It has all I need as a CS student with good performance.', 'review_l1_5': &quot;It's a great laptop. Boot in less than 10 sec. Windows 11 supported. I have purchased for it my office work. It is working fine.&quot;, 'laptop_name_l2': 'laptopB', 'value_l2': 107999, 'stars_l2': 4, 'specs_l2': None, 'review_l2_1': 'High definition and high refresh rate perfect for gaming and only laptop to offer it at this price', 'review_l2_2': &quot;Don't buy this laptop at this price, it's a ripoff much better options are available not worth it.&quot;, 'review_l2_3': 'The screen was not smooth it was flickering; it might be a manufacturing defect but still has not been replaced.', 'review_l2_4': 'Good for gaming and development tasks', 'review_l2_5': 'The best laptop for the given price and a similar specs device at this price are very rare.'}, {'qid': 'ctrc2q1', 'laptop_name_l1': 'laptopA', 'value_l1': 89854, 'stars_l1': 3.2, 'specs_l1': None, 'review_l1_1': 'The laptop is nice and budget friendly', 'review_l1_2': 'Performance issue not able to handle software for development', 'review_l1_3': 'The cheap plastic build is easily scratched and the fingerprint magnet looks old just after months of use', 'review_l1_4': 'Cheap plastic and a sluggish CPU are not worth it, not bad for daily use but still a much better option with a little higher price', 'review_l1_5': &quot;Very bad screen doesn't look that good. It is slow and not worth it&quot;, 'laptop_name_l2': 'laptopB', 'value_l2': 65890, 'stars_l2': 3.2, 'specs_l2': None, 'review_l2_1': 'Good screen and speaker. It has a little low battery life and performance but best deal at this price', 'review_l2_2': 'Very bad. Cannot type on it properly and cannot be used as it has a very old gen CPU and hence returned it back.', 'review_l2_3': &quot;Waste of money. Don't buy. Very bad performance and is not useable at all&quot;, 'review_l2_4': 'The build is not rigid. It’s very bad and has a lot of flexing, The plastic is showing cracks already. Bought it 1 year ago for multimedia purposes but the speakers are loud but not clear, and the music sounds like noise. The screen is good for watching movies but can’t do anything else.', 'review_l2_5': 'I bought it for multimedia purposes but it has been disappointing in all features'}, {'qid': 'ctrc3q1', 'laptop_name_l1': 'laptopA', 'value_l1': 91400, 'stars_l1': 4.5, 'specs_l1': None, 'review_l1_1': 'Battery life is bad not even 2 hours on battery needs to be plugged into the wall constantly to give decent performance.', 'review_l1_2': 'Nice design and RGB perfect for gaming; high performance and good refresh rate', 'review_l1_3': 'It has decent speakers and a trackpad bonus for a very good gaming laptop with high specs', 'review_l1_4': 'The display has a high refresh rate but viewing angles are less and not color accurate good bad for outdoor use: but good for gaming', 'review_l1_5': 'Nice performance able to handle challenging games at max settings', 'laptop_name_l2': 'laptopB', 'value_l2': 82989, 'stars_l2': 4.5, 'specs_l2': None, 'review_l2_1': 'The processing power of this device is seriously impressive. It is able to do heavy-duty tasks effortlessly', 'review_l2_2': 'Battery life is fantastic, lasting through long workdays or streaming sessions without needing a recharge.', 'review_l2_3': 'Graphics performance is good; perfect for both gamers and professionals.', 'review_l2_4': 'Sturdy build quality gives a sense of reliability; it feels like it can withstand everyday wear and tear.', 'review_l2_5': 'My unit, maybe not for everyone, tends to heat up quite a bit during intense use, which can be uncomfortable and concerning.'}, {'qid': 'ctrc4q1', 'laptop_name_l1': 'laptopA', 'value_l1': 91400, 'stars_l1': 3.2, 'specs_l1': None, 'review_l1_1': 'Nice design with colorful lights, perfect for gaming.', 'review_l1_2': 'The display lacks accuracy and angles are not good for use outside.', 'review_l1_3': 'Battery life is really poor, barely lasting 2 hours without being plugged in.', 'review_l1_4': 'Display great for gaming but not ideal for outdoors due to limited angles.', 'review_l1_5': 'Handles tough games smoothly with top-notch performance.', 'laptop_name_l2': 'laptopB', 'value_l2': 82000, 'stars_l2': 3.2, 'specs_l2': None, 'review_l2_1': 'Impressive processing power effortlessly tackles heavy tasks.', 'review_l2_2': &quot;The unit's tendency to heat up during intense tasks could be uncomfortable for some users.&quot;, 'review_l2_3': 'Reliable build quality feels sturdy and durable.', 'review_l2_4': 'Battery life is fantastic for work but tends to heat up during heavy use, which might concern some users.', 'review_l2_5': 'Good graphics performance, suitable for both gamers and professionals.'}, {'qid': 'papc1q1', 'laptop_name_l1': 'laptopA', 'value_l1': 150000, 'stars_l1': 4, 'specs_l1': None, 'review_l1_1': 'Good purchase for this price', 'review_l1_2': 'The audio quality is very bad, can barely hear from the speakers', 'review_l1_3': 'Commendable battery life', 'review_l1_4': 'Bulky and heavy; not practical for on-the-go use.', 'review_l1_5': &quot;Bought this for my son, he thinks it's great&quot;, 'laptop_name_l2': 'laptopB', 'value_l2': 150000, 'stars_l2': 4, 'specs_l2': None, 'review_l2_1': &quot;Random freezes and crashes make using this laptop a nightmare. It's as if it has a mind of its own, deciding when it's time to stop working&quot;, 'review_l2_2': 'Large storage capacity ensures all files and projects can be kept on the laptop for quick access.', 'review_l2_3': 'I love its minimalistic and sleek design', 'review_l2_4': &quot;Out of the box, this laptop is drowning in bloatware. It's like a digital obstacle course trying to remove all the unnecessary apps and tools&quot;, 'review_l2_5': &quot;This laptop is painfully slow! Simple tasks like opening a web browser or file explorer take forever. It's like watching paint dry.&quot;}, {'qid': 'papc1q2', 'laptop_name_l1': 'laptopA', 'value_l1': 75000, 'stars_l1': 4, 'specs_l1': None, 'review_l1_1': 'Lightweight and portable, making it an ideal travel companion for both work and leisure', 'review_l1_2': &quot;Why does this laptop only have one USB port? Seriously? It's 2023, and I have to choose between charging my device or connecting a peripheral. Unbelievable.&quot;, 'review_l1_3': &quot;No USB-C port in this day and age? It's like they are intentionally trying to make this laptop outdated. Connectivity options are stuck in the past&quot;, 'review_l1_4': 'The display is a letdown; colors are washed out, and the viewing angles are terrible. Watching videos or working on this laptop is a visually unpleasant experience', 'review_l1_5': &quot;The speakers are a joke. The sound is tinny and lacks any depth. Even at max volume, it feels like you're listening through a cheap headset.&quot;, 'laptop_name_l2': 'laptopB', 'value_l2': 750000, 'stars_l2': 4, 'specs_l2': None, 'review_l2_1': 'Speedy performance. Never lets me down.', 'review_l2_2': 'The battery on this thing is a joke. You can forget about working remotely or taking it on a long flight without a charger', 'review_l2_3': 'The sound quality on this laptop is top-notch.', 'review_l2_4': 'The display is great. The colors are vibrant, and the high resolution ensures sharp details. Watching movies or editing photos is an absolute delight.', 'review_l2_5': &quot;The laptop's sleek aluminum body exudes sophistication. It feels robust and well-built, making every interaction a pleasure&quot;}, {'qid': 'papc2q1', 'laptop_name_l1': 'laptopA', 'value_l1': 69000, 'stars_l1': 4.2, 'specs_l1': None, 'review_l1_1': 'Has great sound quality.', 'review_l1_2': 'Lightweight and looks great!', 'review_l1_3': 'The quick charging feature is a game-changer. A short charging session provides a significant boost, ensuring I spend more time using the laptop than waiting for it to charge', 'review_l1_4': 'A great selection of ports, including USB-C, HDMI, and an SD card slot.', 'review_l1_5': 'The colors on the display look washed out and pale in comparison to other laptops', 'laptop_name_l2': 'laptopB', 'value_l2': 690000, 'stars_l2': 3.4, 'specs_l2': None, 'review_l2_1': 'Lack of USB ports.', 'review_l2_2': 'Good product', 'review_l2_3': &quot;Its aluminum body makes sure it's light and portable.&quot;, 'review_l2_4': 'Great sound quality.', 'review_l2_5': 'Have had it for 2 years now with not a single issue'}, {'qid': 'papc2q2', 'laptop_name_l1': 'laptopA', 'value_l1': 84500, 'stars_l1': 3.3, 'specs_l1': None, 'review_l1_1': 'Vibrant display makes consuming content enjoyable', 'review_l1_2': 'Bought it 2 days ago and the speakers sound very full of static', 'review_l1_3': &quot;The battery doesn't last longer than an hour with continuous use.&quot;, 'review_l1_4': 'The ample RAM and powerful processor make multitasking a breeze.', 'review_l1_5': 'The laptop has a speedy performance. Applications launch in the blink of an eye, and multitasking is seamless.', 'laptop_name_l2': 'laptopB', 'value_l2': 845000, 'stars_l2': 4.3, 'specs_l2': None, 'review_l2_1': 'Bought it for my office work. No complaints till now', 'review_l2_2': 'The hinges creak and wobble, making me question its durability. Definitely not built to last.', 'review_l2_3': 'Great multimedia experience; the vibrant display and powerful speakers make it perfect for streaming movies and music.', 'review_l2_4': 'Perfect for students! The lightweight design, long battery life, and powerful processing make it a reliable companion for lectures, note-taking, and research.', 'review_l2_5': &quot;The design is an eyesore. It's like they took inspiration from the '90s and tried to bring it into the 21st century. The color choices and overall look are just tacky.&quot;}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="questions" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="small_break"/>
+    <Routine name="trial"/>
+    <LoopTerminator name="questions"/>
+    <Routine name="end_task_msg"/>
+  </Flow>
+</PsychoPy2experiment>
